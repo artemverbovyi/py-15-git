@@ -1,4 +1,4 @@
-def count_lines(name):
+def count_lines_in_file(name):
     with open(name, 'r', encoding="utf-8") as f:
         return len(f.readlines())
 
@@ -7,7 +7,7 @@ def count_chars(name):
         return len(f.read())
 
 if __name__ == "__main__":
-    print(count_lines("C:/Users/Admin/Desktop/Домашка Python/15. Files IO, context managers, JSON/Beginner level/mymod.py"))
+    print(count_lines_in_file("C:/Users/Admin/Desktop/Домашка Python/15. Files IO, context managers, JSON/Beginner level/mymod.py"))
     print(count_chars("C:/Users/Admin/Desktop/Домашка Python/15. Files IO, context managers, JSON/Beginner level/mymod.py"))
 
 # Результат з Pycharm:
